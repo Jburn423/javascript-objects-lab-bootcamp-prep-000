@@ -16,4 +16,10 @@ function deleteFromObjectByKey(object,key){
 // delete newRecipes.prop2;
 // newRecipes;
 // recipes;
+
+  const newObj = Object.assign({}, object)
+
+  delete newObj[key]
+
+  return newObj
 }deleteFromObjectByKey(object, key);
