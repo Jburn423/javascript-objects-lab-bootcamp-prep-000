@@ -17,4 +17,4 @@ function deleteFromObjectByKey(object,key){
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
-}destructivelyDeleteFromObjectByKey('prop2')
+}destructivelyDeleteFromObjectByKey('prop2');
