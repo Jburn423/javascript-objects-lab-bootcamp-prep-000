@@ -13,7 +13,7 @@ function deleteFromObjectByKey(object,key){
   //var recipes = Object.assign({}, object);
   
   var recipes = {'prop2': 2};
-  var newRecipes = Object.;
+  var newRecipes = Object.assign();
   
   delete recipes[key];
   return recipes;
