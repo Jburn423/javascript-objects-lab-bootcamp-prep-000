@@ -17,7 +17,7 @@ function deleteFromObjectByKey(object,key){
 // newRecipes;
 // recipes;
 
-  const recipes = Object.assign({}, object)
+  var recipes = Object.assign({}, object)
 
   delete recipes[key]
 
